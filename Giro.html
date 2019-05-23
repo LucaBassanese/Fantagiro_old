@@ -63,31 +63,75 @@
          @media only screen and (max-width: 300px) {
          .text {font-size: 11px}
          }
+
+         .topnav {
+              overflow: hidden;
+              background-color: #333;
+            }
+         .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+
+          /* Change color on hover */
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+
       </style>
    </head>
    <body>
       <h2>Fantagiro</h2>
+      <div class="topnav">
+        <a href="tabella/classfin.html" target="_blank" >Classifica</a>
+        <a href="tabella/jollyfin.html" target="_blank">Jolly</a>
+        <a href="tabella/forms.html" target="_blank">Forms</a>
+        <a href="tabella/regolamento.html" target="_blank">Regolamento</a>
+        <a href="#">Top 5</a>
+      </div>
+      <br>
+      <br>
+      <br>
       <div class="slideshow-container">
          <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
+            <div class="numbertext">1 / 5</div>
             <a href="tabella/classfin.html" target="_blank">
               <img src="trofeo.jpg" style="width:100%">
             </a>
             <div class="text">Classifica</div>
          </div>
          <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
+            <div class="numbertext">2 / 5</div>
             <a href="tabella/jollyfin.html" target="_blank">
               <img src="joker.jpeg" style="width:100%">
             </a>
             <div class="text">Jolly</div>
          </div>
          <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
+            <div class="numbertext">3 / 5</div>
             <a href="tabella/forms.html" target="_blank">
               <img src="form.jpg" style="width:100%">
             </a>
             <div class="text">Form</div>
+         </div>
+         <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <a href="tabella/regolamento.html" target="_blank">
+              <img src="giustizia.jpg" style="width:100%">
+            </a>
+            <div class="text">Regolamento</div>
+         </div>
+         <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <a href="#" target="_blank">
+              <img src="podio.jpg" style="width:100%">
+            </a>
+            <div class="text">Scelte classifica finale</div>
          </div>
       </div>
       <br>
@@ -95,6 +139,8 @@
          <span class="dot"></span> 
          <span class="dot"></span> 
          <span class="dot"></span> 
+         <span class="dot"></span>
+         <span class="dot"></span>
       </div>
       <script>
          var slideIndex = 0;

@@ -1,447 +1,501 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Classi</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style>
-            table {
-            border: 1px solid #ccc;
-            width: 100%;
-            margin:0;
-            padding:0;
-            border-collapse: collapse;
-            border-spacing: 0;
-          }
-
-          table tr {
-            border: 1px solid #ddd;
-            padding: 5px;
-            background: #fff;
-
-          }
-
-          table th, table td {
-            padding: 10px;
-            text-align: center;
-
-          }
-
-          table th {
-            text-transform: uppercase;
-            letter-spacing: 1px;
-          }
-          
-
-        @media only screen and (max-width: 800px) {
-          
-          #flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-          #flip-scroll * html .cf { zoom: 1; }
-          #flip-scroll *:first-child+html .cf { zoom: 1; }
-          
-          #flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
-         
-          #flip-scroll th,
-          #flip-scroll td { margin: 0; vertical-align: top; }
-          #flip-scroll th { text-align: left; }
-          
-          #flip-scroll table { display: block; position: relative; width: 100%; }
-          #flip-scroll thead { display: block; float: left;}
-          #flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
-          #flip-scroll thead tr { display: block; }
-          #flip-scroll th { display: block; text-align: right; }
-          #flip-scroll tbody tr { display: inline-block; vertical-align: top; }
-          #flip-scroll td { display: block;  text-align: left; }
-         
-        }
-         
-     
-   </style>
-</head>
-<body>
-  <div id="#flip-scroll">
-    <table>
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Ago</th>
-      <th>Bassa</th>
-      <th>Coda</th>
-      <th>Gabriele</th>
-      <th>Marco</th>
-      <th>Max</th>
-      <th>Nico</th>
-      <th>Palu</th>
-      <th>Polli</th>
-      <th>Pozzo</th>
-      <th>Sheva</th>
-      <th>Sticcio</th>
-      <th>Tia</th>
-      <th>Tina</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Tappa 1</th>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 2</th>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>1.5</td>
-      <td>0.5</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.5</td>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 3</th>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>1.5</td>
-      <td>0.5</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>2.5</td>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 4</th>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>0.5</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.5</td>
-      <td>2.5</td>
-      <td>1.5</td>
-      <td>2.0</td>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 5</th>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>0.5</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.5</td>
-      <td>2.5</td>
-      <td>1.5</td>
-      <td>2.0</td>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 6</th>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>2.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.5</td>
-      <td>2.5</td>
-      <td>1.5</td>
-      <td>2.0</td>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>1.5</td>
-    </tr>
-    <tr>
-      <th>Tappa 7</th>
-      <td>2.0</td>
-      <td>1.5</td>
-      <td>2.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.5</td>
-      <td>2.5</td>
-      <td>1.5</td>
-      <td>2.0</td>
-      <td>1.5</td>
-      <td>1.5</td>
-      <td>1.0</td>
-      <td>1.5</td>
-    </tr>
-    <tr>
-      <th>Tappa 8</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 9</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 10</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 11</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 12</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 13</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 14</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 15</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 16</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 17</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 18</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 19</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 20</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>Tappa 21</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-    
-  </div>
-
-</body>
+   <head>
+      <title>Classi</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+         table {
+         border: 1px solid #ccc;
+         width: 100%;
+         margin:0;
+         padding:0;
+         border-collapse: collapse;
+         border-spacing: 0;
+         }
+         table tr {
+         border: 1px solid #ddd;
+         padding: 5px;
+         background: #fff;
+         }
+         table th, table td {
+         padding: 10px;
+         text-align: center;
+         }
+         table th {
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         }
+         @media only screen and (max-width: 800px) {
+         #flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+         #flip-scroll * html .cf { zoom: 1; }
+         #flip-scroll *:first-child+html .cf { zoom: 1; }
+         #flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+         #flip-scroll th,
+         #flip-scroll td { margin: 0; vertical-align: top; }
+         #flip-scroll th { text-align: left; }
+         #flip-scroll table { display: block; position: relative; width: 100%; }
+         #flip-scroll thead { display: block; float: left;}
+         #flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+         #flip-scroll thead tr { display: block; }
+         #flip-scroll th { display: block; text-align: right; }
+         #flip-scroll tbody tr { display: inline-block; vertical-align: top; }
+         #flip-scroll td { display: block;  text-align: left; }
+         }
+      </style>
+   </head>
+   <body>
+      <div id="#flip-scroll">
+         <table border="1" class="dataframe">
+            <thead>
+               <tr style="text-align: right;">
+                  <th></th>
+                  <th>Classifica Fanta</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th>Nico</th>
+                  <td>6.0</td>
+               </tr>
+               <tr>
+                  <th>Ago</th>
+                  <td>6.0</td>
+               </tr>
+               <tr>
+                  <th>Palu</th>
+                  <td>5.0</td>
+               </tr>
+               <tr>
+                  <th>Coda</th>
+                  <td>5.0</td>
+               </tr>
+               <tr>
+                  <th>Tina</th>
+                  <td>4.5</td>
+               </tr>
+               <tr>
+                  <th>Sticcio</th>
+                  <td>4.5</td>
+               </tr>
+               <tr>
+                  <th>Pozzo</th>
+                  <td>4.5</td>
+               </tr>
+               <tr>
+                  <th>Polli</th>
+                  <td>4.5</td>
+               </tr>
+               <tr>
+                  <th>Bassa</th>
+                  <td>4.5</td>
+               </tr>
+               <tr>
+                  <th>Sheva</th>
+                  <td>4.0</td>
+               </tr>
+               <tr>
+                  <th>Marco</th>
+                  <td>4.0</td>
+               </tr>
+               <tr>
+                  <th>Gabriele</th>
+                  <td>4.0</td>
+               </tr>
+               <tr>
+                  <th>Max</th>
+                  <td>3.0</td>
+               </tr>
+               <tr>
+                  <th>Tia</th>
+                  <td>2.5</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <br>
+      <h1>Progesso durante le tappe del punteggio</h1>
+      <br>
+      <div id="#flip-scroll">
+         <table>
+            <thead>
+               <tr style="text-align: right;">
+                  <th></th>
+                  <th>Ago</th>
+                  <th>Bassa</th>
+                  <th>Coda</th>
+                  <th>Gabriele</th>
+                  <th>Marco</th>
+                  <th>Max</th>
+                  <th>Nico</th>
+                  <th>Palu</th>
+                  <th>Polli</th>
+                  <th>Pozzo</th>
+                  <th>Sheva</th>
+                  <th>Sticcio</th>
+                  <th>Tia</th>
+                  <th>Tina</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th>Tappa 1</th>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>2.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 2</th>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>1.5</td>
+                  <td>0.5</td>
+                  <td>0.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>2.5</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 3</th>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>1.5</td>
+                  <td>0.5</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>2.0</td>
+                  <td>2.5</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 4</th>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>0.5</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>2.5</td>
+                  <td>2.5</td>
+                  <td>1.5</td>
+                  <td>2.0</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 5</th>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>0.5</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>2.5</td>
+                  <td>2.5</td>
+                  <td>1.5</td>
+                  <td>2.0</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 6</th>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>2.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>2.5</td>
+                  <td>2.5</td>
+                  <td>1.5</td>
+                  <td>2.0</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>1.5</td>
+               </tr>
+               <tr>
+                  <th>Tappa 7</th>
+                  <td>2.0</td>
+                  <td>1.5</td>
+                  <td>2.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>2.5</td>
+                  <td>2.5</td>
+                  <td>1.5</td>
+                  <td>2.0</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>1.5</td>
+               </tr>
+               <tr>
+                  <th>Tappa 8</th>
+                  <td>3.0</td>
+                  <td>1.5</td>
+                  <td>2.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>1.0</td>
+                  <td>2.5</td>
+                  <td>2.5</td>
+                  <td>1.5</td>
+                  <td>2.0</td>
+                  <td>1.5</td>
+                  <td>1.5</td>
+                  <td>1.0</td>
+                  <td>1.5</td>
+               </tr>
+               <tr>
+                  <th>Tappa 9</th>
+                  <td>5.5</td>
+                  <td>4.0</td>
+                  <td>4.5</td>
+                  <td>3.5</td>
+                  <td>3.5</td>
+                  <td>3.0</td>
+                  <td>5.0</td>
+                  <td>4.5</td>
+                  <td>4.0</td>
+                  <td>4.5</td>
+                  <td>3.5</td>
+                  <td>4.0</td>
+                  <td>1.0</td>
+                  <td>4.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 10</th>
+                  <td>6.0</td>
+                  <td>4.5</td>
+                  <td>5.0</td>
+                  <td>4.0</td>
+                  <td>4.0</td>
+                  <td>3.0</td>
+                  <td>5.5</td>
+                  <td>4.5</td>
+                  <td>4.5</td>
+                  <td>4.5</td>
+                  <td>4.0</td>
+                  <td>4.5</td>
+                  <td>2.0</td>
+                  <td>4.5</td>
+               </tr>
+               <tr>
+                  <th>Tappa 11</th>
+                  <td>6.0</td>
+                  <td>4.5</td>
+                  <td>5.0</td>
+                  <td>4.0</td>
+                  <td>4.0</td>
+                  <td>3.0</td>
+                  <td>6.0</td>
+                  <td>5.0</td>
+                  <td>4.5</td>
+                  <td>4.5</td>
+                  <td>4.0</td>
+                  <td>4.5</td>
+                  <td>2.5</td>
+                  <td>4.5</td>
+               </tr>
+               <tr>
+                  <th>Tappa 12</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 13</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 14</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 15</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 16</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 17</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 18</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 19</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 20</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+               <tr>
+                  <th>Tappa 21</th>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </body>
 </html>
-
