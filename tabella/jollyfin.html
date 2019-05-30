@@ -2,141 +2,123 @@
 <html>
 <head>
   <title>Jolly</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style>
-            table {
-            border: 1px solid #ccc;
-            width: 100%;
-            margin:0;
-            padding:0;
-            border-collapse: collapse;
-            border-spacing: 0;
-          }
-
-          table tr {
-            border: 1px solid #ddd;
-            padding: 5px;
-            background: #fff;
-
-          }
-
-          table th, table td {
-            padding: 10px;
-            text-align: center;
-
-          }
-
-          table th {
-            text-transform: uppercase;
-            letter-spacing: 1px;
-          }
-          
-
-        @media only screen and (max-width: 800px) {
-          
-          #flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-          #flip-scroll * html .cf { zoom: 1; }
-          #flip-scroll *:first-child+html .cf { zoom: 1; }
-          
-          #flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
-         
-          #flip-scroll th,
-          #flip-scroll td { margin: 0; vertical-align: top; }
-          #flip-scroll th { text-align: left; }
-          
-          #flip-scroll table { display: block; position: relative; width: 100%; }
-          #flip-scroll thead { display: block; float: left;}
-          #flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
-          #flip-scroll thead tr { display: block; }
-          #flip-scroll th { display: block; text-align: right; }
-          #flip-scroll tbody tr { display: inline-block; vertical-align: top; }
-          #flip-scroll td { display: block;  text-align: left; }
-         
-        }
-         
-     
-   </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+   table {
+     border: 1px solid #ccc;
+     width: 100%;
+     margin:0;
+     padding:0;
+     border-collapse: collapse;
+     border-spacing: 0;
+   }
+   table tr {
+     border: 1px solid #ddd;
+     padding: 5px;
+     background: #fff;
+   }
+   table th, table td {
+     padding: 10px;
+     text-align: center;
+   }
+   table th {
+     text-transform: uppercase;
+     letter-spacing: 1px;
+   }
+   @media only screen and (max-width: 800px) {
+     #flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+     #flip-scroll * html .cf { zoom: 1; }
+     #flip-scroll *:first-child+html .cf { zoom: 1; }
+     #flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+     #flip-scroll th,
+     #flip-scroll td { margin: 0; vertical-align: top; }
+     #flip-scroll th { text-align: left; }
+     #flip-scroll table { display: block; position: relative; width: 100%; }
+     #flip-scroll thead { display: block; float: left;}
+     #flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+     #flip-scroll thead tr { display: block; }
+     #flip-scroll th { display: block; text-align: right; }
+     #flip-scroll tbody tr { display: inline-block; vertical-align: top; }
+     #flip-scroll td { display: block;  text-align: left; }
+   }
+ </style>
 </head>
-
 <body>
-  
   <div id="#flip-scroll">
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Ago</th>
-      <th>Bassa</th>
-      <th>Coda</th>
-      <th>Gabriele</th>
-      <th>Marco</th>
-      <th>Max</th>
-      <th>Nico</th>
-      <th>Palu</th>
-      <th>Polli</th>
-      <th>Pozzo</th>
-      <th>Sheva</th>
-      <th>Sticcio</th>
-      <th>Tia</th>
-      <th>Tina</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Jolly A</th>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>Jolly B</th>
-      <td>2</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>2</td>
-      <td>1</td>
-      <td>0</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>Jolly F</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-
-  </div>
+   <table border="1" class="dataframe">
+    <thead>
+      <tr style="text-align: right;">
+        <th></th>
+        <th>Ago</th>
+        <th>Bassa</th>
+        <th>Coda</th>
+        <th>Gabriele</th>
+        <th>Marco</th>
+        <th>Max</th>
+        <th>Nico</th>
+        <th>Palu</th>
+        <th>Polli</th>
+        <th>Pozzo</th>
+        <th>Sheva</th>
+        <th>Sticcio</th>
+        <th>Tia</th>
+        <th>Tina</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Jolly A</th>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <th>Jolly B</th>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <th>Jolly F</th>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </body>
-
 </html>
